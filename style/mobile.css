@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+	margin: 0;
+	padding: 0;
+	transition: all .5s;
+}
+
+body {background-color: #3c2929;}
+
+footer, .m_none_for_mobile {display: none;}
+
+.m_holst_news .d_about {display: none;}
+
+.m_holst_gallery .d_about {display: none;}
+
+.m_holst_index {
+	width: 100%;
+	height: 7000px;
+}
+
+.m_holst_news {
+	width: 100%;
+	height: 3460px;
+}
+
+.m_holst_gallery {
+	width: 100%;
+	height: 11000px;
+}
+
+
+.d_menu {
+	display: none;
+}
+
+.m_baseyn_img {
+	display: none;
+}
+
+.m_menu_button_cm {
+	background-color: #323232;
+	height: 128px;
+	width: 100%;
+	position: fixed;
+	transition: width 2s ease-in-out;
+}
+
+
+
+.m_menu_button_cm a {
+	color: #fff;
+	font-size: 90px;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 auto;
+	width: 85%;
+	height: 128px;
+	background-color: #e91717;
+	margin-top: 25px;
+	border-radius: 25px;
+	display: none;
+	
+}
+
+.m_menu_button_om {
+	background-color: #323232;
+	height: 600px;
+	width: 100%;
+	position: fixed;
+	z-index: 0;
+	transition: width 2s ease-in-out;
+}
+
+.m_menu_button_om a {
+	color: #fff;
+	font-size: 90px;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 auto;
+	width: 85%;
+	height: 128px;
+	background-color: #e91717;
+	margin-top: 25px;
+	z-index: 2;
+	border-radius: 25px;
+	display: block;
+	
+}
+.m_menu_fix {
+	width: 100%;
+	height: 128px;
+}
+
+.m_menu_button_cm span {
+	width: 85%;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	font-size: 95px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.m_menu_button_cm i {
+	color: #fff;
+	font-size: 100px;
+	vertical-align: bottom;
+}
+
+.m_hotel_img {
+	width: 100%;
+	height: 600px;
+	margin-bottom: 10px;
+}
+
+.m_description {
+	background-color: #1d3331;
+	margin-bottom: 10px;
+}
+
+.m_description h1 {
+	text-align: center;
+	font-size: 60px;
+	color: #fff;
+	margin-bottom: 30px;
+	padding-top: 30px;
+}
+
+.m_description h2 {
+	text-align: center;
+	font-size: 50px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.m_description p {
+	text-align: center;
+	font-size: 45px;
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 16px;
+}
+
+.m_decor_line {
+	display: none;
+}
+
+.m_services {
+	width: 100%;
+	height: 70px;
+	background-color: #fae200;
+}
+
+.m_services i {
+	color: #1d3331;
+	width: 90px;
+	height: 90px;
+	font-size: 60px;
+	text-align: center;
+	margin-left: 9%;
+}
+
+.m_rooms {
+	margin-bottom: 10px;
+
+}
+
+.m_room_card {
+	width: 100%;
+	margin: 20px 0;
+	background-color: #fff;
+	padding-bottom: 1px;
+}
+
+.m_room_card img{
+	width: 100%;
+	height: 600px;
+}
+
+.m_room_card h3 {
+	text-align: center;
+	font-size: 50px;
+	background-color: #dee40e;
+}
+
+.m_room_card strong {
+	text-align: center;
+	font-size: 50px;
+	background-color: #dee40e;
+	display: inline-block;
+	width: 100%;
+}
+
+.m_room_card div p {
+	text-align: center;
+	font-size: 42px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.m_room_card_description {
+	padding: 20px;
+}
+
+.m_booking_buton {
+	width: 50%;
+	height: 64px;
+	background-color: #dee40e;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.m_booking_buton a {
+	font-size: 50px;
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.m_sauna_img {
+	width: 100%;
+}
+
+ .m_frame_map {
+ 	width: 100%;
+ 	height: 500px;
+ }
+
+ .m_booking_title {
+ 	text-align: center;
+    font-size: 45px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 16px
+ }
+
+ .m_footer {
+ 	background-color: #323232;
+ 	width: 100%;
+ 	height: 80px;
+ }
+
+ .m_english_camp h5, .m_english_camp_prise{
+	text-align: center;
+	font-size: 50px;
+	background-color: #dee40e;
+ }
+
+
+.m_english_camp_img {
+	width: 100%;
+	height: 600px;
+}
+
+.m_english_camp_description {
+	text-align: center;
+    font-size: 45px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 16px;
+}
+
+.mobile_gallery img {
+	width: 97%;
+	height: 600px;
+	margin: 15px 0;
+	border: 15px solid #fff
+}
+
+.mobile_gallery {
+padding: 1%;
+}
+
